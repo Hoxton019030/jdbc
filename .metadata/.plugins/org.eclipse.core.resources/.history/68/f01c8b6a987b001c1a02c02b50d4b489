@@ -1,0 +1,37 @@
+public class hello
+{
+	public static void main(String[] args)
+	{
+		int number = 101;
+		String answer;
+		
+		answer =number % 2 ==0? "even":"odd";
+		
+		
+		System.out.println(answer);
+		
+		
+		
+		
+//		if (number%2==0 ) {
+//		  answer = "even";
+//		}
+//		
+//		else {
+//			answer = "odd";
+//		}
+//		
+//		System.out.println(answer);
+////		String milk1 = "MilkA ";
+////		String milk2=  "MilkB ";
+////		String milk3 = "MilkC ";
+////		
+////		String milk = milk1;
+////		
+////		if (milk.equals("MilkB");
+//		
+
+		
+		
+	}
+}

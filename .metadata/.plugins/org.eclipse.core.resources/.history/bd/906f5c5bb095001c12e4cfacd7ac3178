@@ -1,0 +1,11 @@
+package Lottery;
+
+public class aiPlayer implements Player{
+
+	@Override
+	public void chosenNumber() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

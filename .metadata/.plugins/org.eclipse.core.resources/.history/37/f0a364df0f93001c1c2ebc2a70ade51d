@@ -1,0 +1,13 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class SetDemo {
+	
+	public void test1 {
+		Colletion coll = new ArrayList();
+	}
+	
+	
+
+}

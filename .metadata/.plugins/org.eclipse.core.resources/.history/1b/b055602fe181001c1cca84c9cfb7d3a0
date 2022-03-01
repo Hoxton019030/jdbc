@@ -1,0 +1,15 @@
+package Tutorial;
+
+import java.util.Arrays;
+
+public class bubbleSort {
+	public static void main(String[] args) {
+		int[] array = new int[] { 69, 91, 12, 56, 23, 78 };
+		System.out.print("�Ƨǫe->");
+		for (int i : array) {
+			System.out.print(i+"/t");
+		}
+
+	}
+
+}

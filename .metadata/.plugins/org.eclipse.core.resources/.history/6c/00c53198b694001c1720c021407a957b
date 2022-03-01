@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class main方法所在地 {
+	public static void main(String[] args) {
+		int max = 100;
+		int min = 0;
+		int answer = (int) (Math.random() * 100);
+		int reply;
+
+		Humanplayer humanplayer = new Humanplayer();
+		humanplayer.nameSelf();
+		System.out.println(answer);
+
+
+	}
+
+}

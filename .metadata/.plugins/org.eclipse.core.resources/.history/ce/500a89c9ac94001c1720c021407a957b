@@ -1,0 +1,14 @@
+package praica;
+
+public class asdasd {
+	public static void main(String[] args) {
+	
+	}
+
+}
+
+class ABC {
+	ABC() {
+		System.out.println("123");
+	}
+}

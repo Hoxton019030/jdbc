@@ -1,0 +1,39 @@
+package stack;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Stackarray {
+	int[] stack = new int[10];
+	int top = -1;
+
+	public boolean push(int inputNumber) {
+		if (top >=stack.length) {
+			System.out.println("It's full");
+		} else {
+			stack[++top] = inputNumber;
+
+		}
+	}
+
+	public int pop() {
+		if (top == -1) {
+			System.out.println("It's empty");
+			return -1;
+		} else {
+			return stack[top--];
+		}
+	}
+
+	public boolean isempty() {
+		if (top==-1) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+
+
+
+}

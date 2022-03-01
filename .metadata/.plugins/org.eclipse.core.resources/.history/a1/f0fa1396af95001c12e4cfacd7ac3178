@@ -1,0 +1,26 @@
+package Lottery;
+
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class HumanPlayer implements Player {
+	Set<Integer> humanChosenNumber = new TreeSet<Integer>();
+
+	public void chosenNumber() {
+		Scanner scn = new Scanner(System.in);
+		int inputNumber = scn.nextInt();
+		for (int i = 0; humanChosenNumber.size() < 7; i++) {
+			if (inputNumber < 50 && inputNumber > 0) {
+				humanChosenNumber.add(inputNumber);
+			} else {
+				System.out.println("你輸入的數字" + inputNumber + "超出範圍" + "請重新輸入");
+				humanChosenNumber.clear();
+			}
+
+		}
+		System.out.println("你選的數字是" + humanChosenNumber);
+
+	}
+
+}

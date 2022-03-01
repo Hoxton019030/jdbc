@@ -1,0 +1,7 @@
+
+public abstract class player {
+	private String playername;
+
+	public abstract void nameSelf();
+
+}

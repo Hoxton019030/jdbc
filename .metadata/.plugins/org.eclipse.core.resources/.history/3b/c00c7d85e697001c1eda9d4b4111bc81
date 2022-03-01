@@ -1,0 +1,31 @@
+package stack;
+
+public class stack {
+	int[] stack = new int[10];
+	int top = -1;
+
+	public boolean isempty() {
+		if (top == -1)
+			return true;
+		else
+			return false;
+	}
+
+	public boolean push(int data) {
+		if (top >= stack.length) {
+			System.out.println("堆疊已滿，無法再加入");
+			return false;
+		} else {
+			stack[++top] = data;
+			return true;
+		}
+	}
+
+	public int pop() {
+		if (isempty()) {
+			return -1;
+		} else {
+			return stack[top--];
+		}
+	}
+}

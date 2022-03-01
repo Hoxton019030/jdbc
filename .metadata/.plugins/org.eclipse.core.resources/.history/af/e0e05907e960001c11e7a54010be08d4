@@ -1,0 +1,31 @@
+import java.util.Scanner; 
+
+public class hello
+{
+	public static void main ( String[] args)
+	{
+		Scanner number = new Scanner(System.in);
+		String end = number.nextLine();
+		if (end.equals("scissors"))
+		{
+			System.out.println("stone");
+		}
+		else if (end.equals("stone"))
+		{
+			System.out.println("paper");
+		}
+		else if (end.equals("paper"))
+		{
+			System.out.println("scissors");
+		}
+		else 
+		{
+			System.out.println("½Ð¿é¤Jscissors,stone or paper");
+			
+		}
+		
+		
+		
+		
+	}
+}

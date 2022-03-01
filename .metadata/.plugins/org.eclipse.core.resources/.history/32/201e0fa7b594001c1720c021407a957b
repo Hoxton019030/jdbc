@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Humanplayer extends player{
+	@Override
+	public void nameSelf() {
+		System.out.println("請輸入你的名字！");
+		Scanner scn = new Scanner(System.in);
+		String username = scn.nextLine();
+		System.out.println("歡迎" + username);
+		
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+}

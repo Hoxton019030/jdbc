@@ -1,0 +1,7 @@
+
+public interface player {
+
+	public void nameSelf();
+	public void guessNumber();
+
+}

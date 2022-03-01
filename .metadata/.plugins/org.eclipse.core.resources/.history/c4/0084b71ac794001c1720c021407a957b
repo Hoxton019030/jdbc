@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+	static int max = 100;
+	static int min = 0;  //問題:什麼時候會把一個屬性、方法設為static，是希望它一被宣告，就能被所有程式接收到嗎，還是說因為各個Class都有很大機率會用到這個屬性,所以設成static比較方便?
+	final static int answer = (int) (Math.random() * 100);
+
+	public static void main(String[] args) {
+
+		Humanplayer humanplayer = new Humanplayer();
+//		AI ai = new evenAI(); //問題:我想使用多態來呼叫 ai.guessNumber() 為什麼不行
+		evenAI evenai = new evenAI();
+		humanplayer.nameSelf();
+		System.out.println(answer);
+		System.out.println("請輸入一個數字");
+		while (true) {
+			humanplayer.guessNumber();
+			humanplayer.setTheCounter();
+			evenai.guessNumber();
+			humanplayer.setTheCounter();
+
+		}
+
+	}
+
+}

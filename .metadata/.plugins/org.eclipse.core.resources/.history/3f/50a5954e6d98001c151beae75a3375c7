@@ -1,0 +1,28 @@
+package Poker;
+
+import java.util.Iterator;
+
+public class Poker {
+	
+	public static void main(String[] args) {
+		
+	}
+	String []poker= new String[52] ;
+	public void poker() {
+		String [] type = new String[]{"Spades","Hearts","Diamonds","Clubs"};
+		String [] number = new String[] {"1","2","3","4","5","6","7","8","9","10"};
+		
+		for(int i=0;i<9;i++) {
+			for(int j=0;j<4;j++) {
+				poker=type[j]+number[i];
+			}
+		}
+		for (String  string  : poker) {
+			System.out.println(string);
+			
+		}
+		
+		
+	}
+
+}

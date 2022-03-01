@@ -1,0 +1,26 @@
+public class hello
+{
+	public static void main(String[] args)
+	{
+		
+		/*想做出一個可以紀錄骰子點數的東西*/
+		int times   = 100;
+		int[]record = new int[6];
+		
+		for(int i=0;i<times;i++) {
+			int dice = (int) (Math.random()*5.99999);
+			record[dice]++;
+			
+		}
+		
+		System.out.println("one :"  +record[0]+"和標準差:"+(record[0]-times)/times);
+		System.out.println("two :"  +record[1]"和標準差:"+(record[1]-times)/times);
+		System.out.println("three :"+record[2]"和標準差:"+(record[2]-times)/times);
+		System.out.println("four :" +record[3]"和標準差:"+(record[3]-times)/times);
+		System.out.println("five :" +record[4]"和標準差:"+(record[4]-times)/times);
+		System.out.println("six :"  +record[5]"和標準差:"+(record[5]-times)/times);
+
+		
+		
+	}
+}

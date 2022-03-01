@@ -1,0 +1,20 @@
+package extendDemo;
+
+public class math {
+
+	public static void main(String[] args) {
+		
+		for(int x = 1, y =1 ;x<10000;x++,y++) {
+			if (595000+(3400/105400)*y-x==0&&1615000+(8500/13600)*x-y==0) {
+				System.out.println("dick");
+				System.out.printf("x¬O%d y¬O%d",x,y);
+				
+			}
+			else {
+				System.out.println("dick");
+			}
+			
+		}
+	}
+
+}

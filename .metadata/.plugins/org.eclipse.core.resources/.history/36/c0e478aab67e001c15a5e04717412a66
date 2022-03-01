@@ -1,0 +1,12 @@
+package Tutorial;
+
+public class students {
+	public float weight;
+	public float hight;
+	
+	public students() {
+		
+		System.out.println("good!");
+	}
+
+}

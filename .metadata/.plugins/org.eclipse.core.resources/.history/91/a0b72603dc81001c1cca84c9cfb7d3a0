@@ -1,0 +1,7 @@
+package Tutorial;
+
+public class BuildObject {
+	public static void main(String[] args) {
+		
+	}
+}

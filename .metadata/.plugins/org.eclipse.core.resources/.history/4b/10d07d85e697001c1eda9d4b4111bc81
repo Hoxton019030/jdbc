@@ -1,0 +1,15 @@
+package stack;
+
+import java.util.Scanner;
+
+public class implement {
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		System.out.println("輸入數字吧！");
+		
+		int inputNumber=scn.nextInt();
+		
+		
+	}
+
+}

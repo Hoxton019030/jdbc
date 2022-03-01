@@ -1,0 +1,29 @@
+package stack;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class main {
+	public static void main(String[] args) throws IOException {
+		Stackarray stackarray = new Stackarray();
+		Scanner scn = new Scanner(System.in);
+		System.out.println("你要堆疊幾層?");
+
+		int arraysizescn = scn.nextInt();
+		stackarray.creatStack(arraysizescn);
+		int arraynumber = scn.nextInt();
+		
+		for (int i=0;i<arraynumber;i++) {
+			int input = scn.nextInt();
+			stackarray.push(input);
+		}
+		for (int int : stackarray.stack) {
+			System.out.println(int);
+			
+		}
+
+	}
+}

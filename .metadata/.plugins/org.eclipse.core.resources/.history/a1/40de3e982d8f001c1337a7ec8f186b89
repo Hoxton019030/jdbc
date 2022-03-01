@@ -1,0 +1,7 @@
+package extendDemo;
+
+public class Ccar{
+	public double gas;
+	public double tbo;
+	public double max_dist = 0
+}

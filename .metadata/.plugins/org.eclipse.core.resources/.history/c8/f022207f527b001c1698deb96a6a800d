@@ -1,0 +1,16 @@
+public class hello
+{
+	public static void main(String[] args)
+	{
+		int []students = new int[10];
+		
+		students[0]=10;
+		
+		System.out.println(students[0]);
+		
+		
+		
+		
+		
+	}
+}

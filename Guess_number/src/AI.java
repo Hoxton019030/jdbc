@@ -1,4 +1,5 @@
 
-public abstract class AI extends player{
+public abstract class AI {
+	public void 
 
 }

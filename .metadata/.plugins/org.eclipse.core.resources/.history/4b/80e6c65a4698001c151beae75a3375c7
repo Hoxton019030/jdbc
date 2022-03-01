@@ -1,0 +1,21 @@
+package stack;
+
+public class Stack {
+	int[] stack;
+	int top =-1;
+
+	Stack(int arraysize) {
+		this.stack = new int[arraysize];
+
+	}
+	
+	public void push(int arraynumber) {
+		if(top<stack.length) {
+			stack[++top]=arraynumber;
+		}else {
+			System.out.println("is full");
+		}
+		
+	}
+
+}

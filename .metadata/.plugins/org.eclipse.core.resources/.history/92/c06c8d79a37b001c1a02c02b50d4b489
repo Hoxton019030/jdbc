@@ -1,0 +1,12 @@
+public class hello
+{
+	public static void main(String[] args)
+	{
+		int number = 99;
+		System.out.println(Math.pow(number, 2));
+			
+
+		
+		
+	}
+}

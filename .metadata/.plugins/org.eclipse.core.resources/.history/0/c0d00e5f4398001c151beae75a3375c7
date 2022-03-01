@@ -1,0 +1,27 @@
+package stack;import java.util.Stack;
+
+public class Stackarray {
+	int[] stack;
+	int top = -1;
+	public void creatStack(int size) {
+		this.stack = new int[size];
+		System.out.println(stack.length);
+	}
+
+	public void push(int inputNumber) {
+		if (top<stack.length) {
+			stack[++top] = inputNumber;
+		}else {
+			System.out.println("滿了");
+		}
+	}
+//
+//	public int pop() {
+//	}
+//
+//	public boolean isempty() {
+//	}
+
+
+
+}

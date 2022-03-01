@@ -1,0 +1,20 @@
+package Tutorial;
+
+public class hey {
+	public static void main(String[] args) {
+
+		students A = new students();
+		students B  = new students();
+		students C = new students();
+		A.hight = 100.0f;
+		A.weight = 30.0f;
+		B.hight = 120.0f;
+		B.weight = 40.0f;
+		C.hight = 130.0f;
+		C.weight = 10.0f;
+
+		System.out.println(A.hight);
+		System.out.println(B.hight);
+		System.out.println(C.hight);
+	}
+}

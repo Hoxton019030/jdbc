@@ -1,0 +1,10 @@
+public class hello{
+	public static void main(String[] args) {
+		
+		int [] arrayA = {10,20,30};
+		int [] arrayB = arrayA;
+		
+		arrayB[1] = 5;
+		System.out.println(arrayA) ;
+	}
+}

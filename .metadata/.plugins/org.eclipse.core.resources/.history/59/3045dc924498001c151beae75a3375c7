@@ -1,0 +1,11 @@
+package stack;
+
+public class Stack {
+	int[] stack;
+
+	Stack(int arraysize) {
+		this.stack=new int[arraysize];
+
+	}
+
+}

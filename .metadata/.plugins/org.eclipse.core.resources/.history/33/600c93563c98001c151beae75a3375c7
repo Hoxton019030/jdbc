@@ -1,0 +1,25 @@
+package stack;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class main {
+	public static void main(String[] args) throws IOException {
+		BufferedReader buf = new BufferedReader(new InputStreamReader(System.in));
+		Stackarray stack = new Stackarray();
+		System.out.println(stack.stack.length);
+		while (stack.top < 10) {
+			int inputNumber = buf.read();
+			stack.push(inputNumber);
+
+		}
+
+		for (Integer integer : stack.stack) {
+			System.out.println(integer);
+
+		}
+
+	}
+
+}

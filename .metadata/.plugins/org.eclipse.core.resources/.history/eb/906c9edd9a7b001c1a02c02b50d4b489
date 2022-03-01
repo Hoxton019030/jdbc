@@ -1,0 +1,21 @@
+public class hello
+{
+	public static void main(String[] args)
+	{
+			
+		String milk1 = "MilkA ";
+		String milk2=  "MilkB ";
+		String milk3 = "MilkC ";
+		
+		String milk = milk1;
+		
+		if (milk.equals("MilkB")||milk.equals("MilkA")) {
+			System.out.println("Good!");
+			
+		}
+		
+
+		
+		
+	}
+}

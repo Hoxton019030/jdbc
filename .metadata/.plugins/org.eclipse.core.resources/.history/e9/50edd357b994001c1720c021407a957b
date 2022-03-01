@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+	int max = 100;
+	int min = 0;
+	final static int answer = (int) (Math.random() * 100);
+
+	public static void main(String[] args) {
+
+		Humanplayer humanplayer = new Humanplayer();
+		humanplayer.nameSelf();
+		System.out.println(answer);
+
+		while (true) {
+			humanplayer.guessNumber();
+
+		}
+
+	}
+
+}

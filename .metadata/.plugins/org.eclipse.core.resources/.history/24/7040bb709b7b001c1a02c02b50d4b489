@@ -1,0 +1,24 @@
+public class hello
+{
+	public static void main(String[] args)
+	{
+			
+		String milk1 = "Milk A ";
+		String milk2=  "Milk B ";
+		String milk3 = "Milk C ";
+		
+		String milk = "milk A";
+		
+		if (milk.equals("milk A")) {
+			System.out.println("Good!");
+			
+		}
+		else {
+			System.out.println("NO");
+		}
+		
+
+		
+		
+	}
+}

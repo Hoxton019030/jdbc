@@ -1,0 +1,9 @@
+public class hello{
+	public static int square(int input) {
+		return input*input;
+	}
+	public static void main (String[] args) {
+		int number = 6;
+		System.out.println(square(number));
+	}
+}

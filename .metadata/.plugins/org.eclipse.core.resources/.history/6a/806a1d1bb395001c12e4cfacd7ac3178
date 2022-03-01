@@ -1,0 +1,20 @@
+package Lottery;
+
+
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("大樂透開始囉！請從1~49裡面選擇6個數字吧");
+		Player humanplayer = new HumanPlayer();
+		Player aiPlayer = new aiPlayer();
+//		humanplayer.chosenNumber();
+		aiPlayer.chosenNumber();
+		
+	
+
+	
+		
+
+	}
+
+}

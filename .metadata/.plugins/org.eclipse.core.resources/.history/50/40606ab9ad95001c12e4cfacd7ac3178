@@ -1,0 +1,16 @@
+package Lottery;
+
+import java.util.HashSet;
+import java.util.Set;
+
+interface Player {
+	Set<Integer> totalLotteryNumber = new HashSet<Integer>();
+
+	public default void generateNumber() {
+		for (int i = 1; i < 50; i++) {
+			Player.totalLotteryNumber.add(i);
+		}
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package Collection;
+
+import java.util.*;
+
+public class TreeSetDemo {
+	public static void main(String[] args) {
+		TreeSet<Integer> array = new TreeSet<>();
+		int [] number = {23,45,9,-4,18,93,100,76,54,66,89,34,0,-55,-27,61};
+		
+		for(int n:number)
+			array.add(n);
+		System.out.println("物件內的內容");
+		System.out.println(""+ array);
+	}
+
+}

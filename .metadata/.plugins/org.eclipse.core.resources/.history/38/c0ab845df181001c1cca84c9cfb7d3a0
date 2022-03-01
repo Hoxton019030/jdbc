@@ -1,0 +1,20 @@
+package Tutorial;
+
+import java.util.Scanner;
+
+public class Recursive {
+	public static void main(String[] args) {
+		System.out.println("請輸入一個整數");
+		Scanner scanner = new Scanner(System.in);
+		int input = scanner.nextInt();
+		System.out.printf("10+9+...+2+1 =%d",recursive());
+		System.out.printf("100+99+...+2+1 =%d",recursive());
+		
+	}
+	static int recursive(int x) {
+		
+		return
+	}
+	
+
+}

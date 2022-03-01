@@ -1,0 +1,11 @@
+package Tutorial;
+
+public class hey {
+	public static void main(String[] args) {
+
+		students tom = new students();
+		tom.hight = 100.0f;
+		tom.weight= 30.0f;
+		System.out.println(tom.hight);
+	}
+}

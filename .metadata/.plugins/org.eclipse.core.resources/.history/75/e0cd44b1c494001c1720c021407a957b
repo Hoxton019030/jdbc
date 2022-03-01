@@ -1,0 +1,25 @@
+
+public class evenAI implements AI {
+	@Override
+public void guessNumber() {
+	// TODO Auto-generated method stub
+	super.guessNumber();//問題:這可以拿掉嗎?
+	
+	int aiAnswer=(int) (Math.random() * 100);
+	if (aiAnswer > Main.answer) {
+		Main.max = aiAnswer;
+	} else if (aiAnswer < Main.answer) {
+		Main.min = aiAnswer;
+	} else {
+		System.out.println("猜對了，好棒！");
+	
+	
+}
+
+	@Override
+	public void nameSelf() {
+		return;
+		// TODO Auto-generated method stub
+
+	}
+}

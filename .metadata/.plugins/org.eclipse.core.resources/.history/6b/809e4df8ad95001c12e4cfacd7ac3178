@@ -1,0 +1,21 @@
+package Lottery;
+
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class HumanPlayer implements Player {
+	Set<Integer> humanChosenNumber = new HashSet<Integer>();
+
+	public void chosenNumber() {
+		Scanner scn = new Scanner(System.in);
+		for (int i = 0; humanChosenNumber.size() < 7; i++) {			
+			humanChosenNumber.add(scn.nextInt());
+
+		}
+		System.out.println("你選的數字是"+humanChosenNumber);
+
+	}
+
+
+}

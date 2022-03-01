@@ -1,0 +1,18 @@
+
+public class evenAI implements AI{
+@Override
+public void guessNumber() {
+	// TODO Auto-generated method stub
+	super.guessNumber();//問題:這可以拿掉嗎?
+	System.out.println("dick");
+	
+	
+}
+
+@Override
+public void nameSelf() {
+	return;
+	// TODO Auto-generated method stub
+	
+}
+}

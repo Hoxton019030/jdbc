@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Humanplayer extends player{
+
+	@Override
+	public void nameSelf() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+}

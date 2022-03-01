@@ -1,0 +1,10 @@
+public class hey
+{
+	public static void main(String[] args)
+	{
+		int number = 10 ;
+		String aaa = "dick";
+		System.out.println(number+aaa);
+	}
+	
+}

@@ -1,0 +1,11 @@
+package stack;
+
+public class stack {
+	int[] stack = new int[10];
+	int top =-1;
+	public 
+	public static void main(String[] args) {
+		
+	}
+
+}

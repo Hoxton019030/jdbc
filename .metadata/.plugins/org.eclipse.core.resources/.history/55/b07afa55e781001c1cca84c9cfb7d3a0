@@ -1,0 +1,28 @@
+package Tutorial;
+
+import java.util.Arrays;
+
+public class bubbleSort {
+	public static void main(String[] args) {
+		int[] array = new int[] { 69, 91, 12, 56, 23, 78 };
+		System.out.print("排序前->");
+		for (int i : array) {
+			System.out.print(i + " ");
+
+		}
+		sort_1.bSort(array);
+		System.out.println();
+		System.out.print("排序後->");
+		for (int i : array) {
+			System.out.print(i + " ");
+		}
+
+	}
+}
+
+class sort_1 {
+	static int[] bSort(int[] vArray) {
+		Arrays.sort(vArray);
+		return vArray;
+	}
+}

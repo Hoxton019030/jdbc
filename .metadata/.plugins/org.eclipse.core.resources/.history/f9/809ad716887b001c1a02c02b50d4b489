@@ -1,0 +1,10 @@
+public class hello
+{
+	public static void main(String[] args)
+	{
+		
+		int dice = (Math.random());
+		System.out.println(dice);
+		
+	}
+}

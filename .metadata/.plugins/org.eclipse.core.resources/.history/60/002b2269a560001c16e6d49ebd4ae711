@@ -1,0 +1,18 @@
+import java.util.Scanner; 
+
+public class hello
+{
+	public static void main ( String[] args)
+	{
+		Scanner number = new Scanner(System.in);
+		String end = number.nextLine();
+		if (end.equlas("scissors"))
+		{
+			System.out.println("ok");
+		}
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+package Tutorial;
+
+public class AddNums {
+	
+
+	static int add(int...a){
+		int total=0;
+		for (int i : a) {
+			total+=i;
+		}
+		
+		return total;
+	}
+}

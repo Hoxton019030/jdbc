@@ -1,0 +1,11 @@
+package Tutorial;
+
+public class students {
+	public float weight;
+	public float hight;
+	
+	public students() {
+		
+	}
+
+}

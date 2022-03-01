@@ -1,0 +1,21 @@
+package stack;
+
+public class Stackarray {
+	int[] stack;
+	int top = -1;
+	public void creatStack(int size) {
+		this.stack = new int[size];
+	}
+
+//	public void push(int inputNumber) {
+//	}
+//
+//	public int pop() {
+//	}
+//
+//	public boolean isempty() {
+//	}
+
+
+
+}

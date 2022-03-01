@@ -1,0 +1,11 @@
+package Tutorial;
+
+public class AddNum {
+	public static void main(String[] yses) {
+		int totall;
+		int x = 17;
+		int y = 28;
+		
+	}
+
+}

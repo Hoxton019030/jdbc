@@ -1,0 +1,8 @@
+
+public abstract class player {
+
+	public abstract void nameSelf() ;
+	public abstract void guessNumber();
+	
+
+}

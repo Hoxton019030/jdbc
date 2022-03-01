@@ -1,0 +1,17 @@
+
+public class AI extends player {
+
+	@Override
+	public void nameSelf() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void guessNumber() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

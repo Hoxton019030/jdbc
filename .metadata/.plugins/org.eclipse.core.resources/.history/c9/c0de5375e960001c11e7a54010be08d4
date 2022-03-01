@@ -1,0 +1,13 @@
+public class hello
+{
+	public static void main (String[] args)
+	{
+		float f = 0.01f;
+		  
+		while(f <= 10)
+		{
+		 f += 0.1f;
+		 System.out.println(f);
+		}
+	}
+}

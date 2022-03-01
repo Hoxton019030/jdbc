@@ -1,0 +1,15 @@
+package Lottery;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HumanPlayer implements Player {
+	Set lotterySet = new HashSet();
+
+	@Override
+	public void generateNumber() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

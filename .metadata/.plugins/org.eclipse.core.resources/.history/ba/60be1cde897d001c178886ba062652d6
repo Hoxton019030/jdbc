@@ -1,0 +1,11 @@
+package cycu;
+public class cycu{
+	public static void main(String[] args) {
+
+		double a = 0.1, b = 0.2;
+		
+		System.out.println(a);
+		System.out.println(b);
+System.out.println(a+b);
+	}
+}

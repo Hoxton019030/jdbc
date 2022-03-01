@@ -1,0 +1,19 @@
+package cycu;
+
+import javax.swing.JOptionPane;
+
+public class 課程專業 {
+	public static void main(String[] args) {
+String choice = JOptionPane.showInputDialog(null, "123?\n"
++"A. 心情不好的時候，需要逛一下\r\n"
++"B. 有事沒事逛一下，看看有什麼好買\\r\\n"
++"C. 沒事不逛街，有缺東西才會進商店選購\\r\\n"
++"D. 新品推出，徹夜排隊也要第一個買到\\r\\n","心理測驗", JOptionPane.QUESTION_MESSAGE);
+System.out.println(choice);
+
+
+
+
+			
+		}
+}

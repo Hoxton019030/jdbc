@@ -1,0 +1,9 @@
+
+public class Main主要方法 {
+	public static void main(String[] args) {
+		HumanPlayer humanplayer = new HumanPlayer();
+		humanplayer.nameSelf();
+				
+	}
+
+}

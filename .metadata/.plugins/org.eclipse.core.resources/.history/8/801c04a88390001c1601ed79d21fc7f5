@@ -1,0 +1,11 @@
+package 進階;
+
+public class Pokemon {	
+	String name;
+	double height;
+	double weight;
+	String abilities;
+	String category;
+	String gender;
+
+}

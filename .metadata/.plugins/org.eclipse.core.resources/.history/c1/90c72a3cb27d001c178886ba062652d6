@@ -1,0 +1,18 @@
+package cycu;
+
+public class cycu {
+	public static void main(String[] args) {
+		int x = 70;
+		if(x>15&&x<60) {
+			System.out.println("全票");		
+		}
+		else if (x>60) {
+			System.out.println("敬老票");
+		}
+		else {
+				System.out.println("兒童票");
+			}
+			
+		}
+	}
+

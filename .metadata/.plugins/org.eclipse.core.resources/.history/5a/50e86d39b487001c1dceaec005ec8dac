@@ -1,0 +1,13 @@
+package extendDemo;
+
+public class CMath {
+	public void getMax(int a, int b) {
+		int bigNum;
+		if(a>b)
+			bigNum =a;
+		else
+			bigNum = b;
+		System.out.printf("%d與%d的最大數為%d",a,b,bigNum);
+	}
+
+}

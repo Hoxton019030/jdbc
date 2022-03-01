@@ -1,0 +1,15 @@
+package cycu;
+import java.util.Scanner;
+public class cycu{
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		System.out.println("請輸入資料:");
+		var inputData = scn.next();
+		System.out.println("您輸入的資料是:"+inputData);
+		scn.close();
+		
+	}
+}
+	
+	
+

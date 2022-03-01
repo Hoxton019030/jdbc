@@ -1,0 +1,15 @@
+package c2_module20_IO;
+
+import java.io.File;
+
+public class FileDemo {
+	public static void main(String[] args) {
+//		File file = new File(".\\新資料夾(87)\\新資料夾(88)\\新資料夾(89)"); // . 帶
+		String path = ".\\新資料夾(87)\\新資料夾(88)\\新資料夾(89)";
+		File file = new File(path);
+		System.out.println(path+"is exists?"+file.exists());
+		
+
+	}
+
+}

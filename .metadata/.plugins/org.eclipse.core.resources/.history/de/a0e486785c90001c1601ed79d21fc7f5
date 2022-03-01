@@ -1,0 +1,17 @@
+package 進階;
+public class BMI {
+	public static void main(String[] args) {
+		BMI2 bmi = new BMI2();
+		System.out.println(bmi.get_Bmi(175, 60));
+		
+		
+	}
+
+}
+
+class BMI2{
+	public float get_Bmi(float height,int weight) {
+		float bmi = weight / (height*height)/100;
+		return bmi;
+	}
+}

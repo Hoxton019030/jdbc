@@ -1,0 +1,8 @@
+package 上課的地方;
+
+public class 隔壁大嬸 {
+	public void 跟她在菜市場吵架() throws Exception {
+		System.out.println("幹");
+	}
+
+}

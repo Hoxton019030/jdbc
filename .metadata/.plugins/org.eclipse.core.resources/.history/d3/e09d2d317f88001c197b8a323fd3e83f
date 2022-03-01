@@ -1,0 +1,41 @@
+
+abstract class Cscore {
+	protected int chia;
+	protected int math;
+
+	public abstract double avgScore();
+
+	protected Cscore(int chia, int math) {
+		this.chia = chia;
+		this.math = math;
+	}
+
+}
+
+class SimpleAvg extends Cscore {
+
+	SimpleAvg(int chia, int math) {
+		super(chia, math);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double avgScore() {
+		// TODO Auto-generated method stub
+		return (float) (chia + math) / 2;
+	}
+
+}
+
+class  WeightAvg extends Cscore{
+private int w1;
+private int w2;
+
+WeightAvg()
+
+	super(chia,math);
+	this.w1 = w1;
+	this.w2 = w2;
+}
+
+public class AbstractDemo{

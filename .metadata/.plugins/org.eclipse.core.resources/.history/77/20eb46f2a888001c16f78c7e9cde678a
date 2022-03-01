@@ -1,0 +1,15 @@
+package otherPackage;
+
+public class Customer{
+	private int id = 3;
+	public static void main(String[] args) {
+		Customer customer = new Customer();
+		id =5;
+		showId();
+				
+	}
+	
+	protected void showId() {
+		System.out.println(id);
+	}
+}

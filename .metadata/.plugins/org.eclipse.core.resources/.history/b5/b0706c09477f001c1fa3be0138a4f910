@@ -1,0 +1,19 @@
+package cycu;
+
+import java.util.Scanner;
+
+public class sodadasd {
+
+	public static void main(String[] args) {
+		int[] myarray = new int[10];
+		try {
+			
+			myarray[10] = 250;
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("例外內容: " +e.toString());
+		}
+		System.out.println("good");
+	}
+
+}

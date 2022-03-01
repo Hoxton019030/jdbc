@@ -1,0 +1,20 @@
+package extendDemo;
+
+public class whilepratice {
+
+	public static void main(String[] args) {
+		int score = (int) (Math.random() * 100);
+
+		while (score > 60) {
+			if (score > 60) {
+				System.out.println(score+"及格");
+				break;
+			} else {
+				System.out.println(score+"不及格");
+				break;
+			}
+
+		}
+
+	}
+}

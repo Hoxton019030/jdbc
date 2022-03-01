@@ -1,0 +1,8 @@
+package cycu;
+public class cycu{
+	public static void main(String[] args) {
+
+		var c = "dice";
+		System.out.println(c);
+	}
+}

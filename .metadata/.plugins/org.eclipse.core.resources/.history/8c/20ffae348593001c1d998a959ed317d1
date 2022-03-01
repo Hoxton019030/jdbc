@@ -1,0 +1,6 @@
+package 上課的地方;
+
+public class Employee {
+	private int employeeID;
+
+}

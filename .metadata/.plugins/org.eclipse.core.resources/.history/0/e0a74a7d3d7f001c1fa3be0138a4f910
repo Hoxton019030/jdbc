@@ -1,0 +1,12 @@
+package cycu;
+
+import javax.swing.JOptionPane;
+
+public class 課程專業 {
+	public static void main(String[] args) {
+String choice = JOptionPane.showInputDialog(null, "123?\n");			
+			
+		}
+	}
+
+

@@ -1,0 +1,10 @@
+package extendDemo;
+
+public class whilepratice {
+	
+	public static void main(String[] args) {
+		int score = (int)(Math.random()*100);
+		
+		while
+	}
+}

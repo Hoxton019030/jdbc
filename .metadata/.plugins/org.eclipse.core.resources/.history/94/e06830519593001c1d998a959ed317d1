@@ -1,0 +1,9 @@
+
+public class GuessGame {
+	public static void main(String[] args) {
+		HumanPlayer humanplayer = new HumanPlayer();
+		humanplayer.nameSelf();
+		
+	}
+
+}

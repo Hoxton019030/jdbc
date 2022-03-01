@@ -1,0 +1,13 @@
+package 上課的地方;
+
+public class clazz {
+	public String publicInt="I am public";
+	protected String protectedInt = "I am pertected";
+	String defaultInt = "I am default";
+	private String privateInt ="I am private";
+	public static void main(String[] args) {
+		
+	}
+	
+
+}

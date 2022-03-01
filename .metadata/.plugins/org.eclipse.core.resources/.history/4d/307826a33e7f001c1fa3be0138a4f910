@@ -1,0 +1,28 @@
+package cycu;
+
+import javax.swing.JOptionPane;
+
+public class 課程專業 {
+	public static void main(String[] args) {
+String choice = JOptionPane.showInputDialog(null, "123?\n"
++"A. 心情不好的時候，需要逛一下\r\n"
++"B. 有事沒事逛一下，看看有什麼好買\r\n"
++"C. 沒事不逛街，有缺東西才會進商店選購\r\n"
++"D. 新品推出，徹夜排隊也要第一個買到\r\n","心理測驗", JOptionPane.QUESTION_MESSAGE);
+System.out.println(choice);
+
+switch (choice) {
+case A :System.out.println("A. 衝動購物型\r\n"
+		+ "選擇這一項的你，把購物當作一種發洩的方法，在購物的過程中能夠帶給你滿足感，表示你是一個懂得去排解自己情緒、很懂得愛自己的人！在別人眼中，可能會覺得你「怎麼又買東西了」、「這些東西確定用得到嗎？」，但你一點都不在意！因為自己賺的錢、自己花！別人管不著～～"	);
+case B :
+case C:
+case D :
+}
+}
+
+
+
+
+			
+		}
+}

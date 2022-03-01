@@ -1,0 +1,10 @@
+package cycu;
+
+public class cycu {
+	public static void main(String[] args) {
+		int age =166;
+		int age2=155;
+		
+		System.out.println(age|age2);
+	}
+}

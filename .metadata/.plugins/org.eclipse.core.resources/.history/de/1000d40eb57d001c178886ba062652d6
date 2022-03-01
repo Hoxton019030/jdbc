@@ -1,0 +1,9 @@
+package cycu;
+
+public class cycu {
+	public static void main(String[] args) {
+		int x = 0x11101101010111111111111111111;
+		System.out.println(x);
+		
+	}
+}

@@ -1,0 +1,9 @@
+package cycu;
+public class cycu{
+	public static void main(String[] args) {
+
+		char aa = '\u0B6x';
+		String myString = aa + " result" ;
+		System.out.println(myString); // displays "? result"
+	}
+}

@@ -1,0 +1,20 @@
+package extendDemo;
+
+public class while_another {
+	public static void main(String[] args) {
+
+		int score = (int) (Math.random() * 100);
+		boolean pass =false;
+		do {
+			if (score > 60) {
+				System.out.println("及格");
+				pass =true;
+				
+			} else {
+				System.out.println("不及格");
+				
+			}
+		} while (!pass);
+
+	}
+}

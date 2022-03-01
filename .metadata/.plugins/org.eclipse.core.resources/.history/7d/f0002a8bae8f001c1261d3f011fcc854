@@ -1,0 +1,6 @@
+package 進階;
+
+public class martix {
+	int[][] array = new int[3][4]; 
+
+}

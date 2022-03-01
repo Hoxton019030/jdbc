@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class HumanPlayer extends player{
+	public String nameSelf(){
+		Scanner scn = new Scanner(System.in);
+		String userName = scn.nextLine();
+		return userName;
+	}
+
+	@Override
+	protected void guess(int min, int max) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

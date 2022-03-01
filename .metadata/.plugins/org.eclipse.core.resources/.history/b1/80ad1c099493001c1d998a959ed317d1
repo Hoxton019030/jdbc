@@ -1,0 +1,9 @@
+
+public class Start_the_game {
+	public static void main(String[] args) {
+		HumanPlayer humanplayer = new HumanPlayer();
+		humanplayer.nameSelf();
+		
+	}
+
+}

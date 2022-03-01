@@ -1,0 +1,26 @@
+package 進階;
+
+import java.util.Scanner;
+
+public class BMI {
+	public static void main(String[] args) {
+		BMI2 bmi = new BMI2();
+		Scanner scn = new Scanner(System.in);
+		System.out.println("請輸入身高(cm)");
+		float cm = scn.nextFloat();
+		System.out.println("請輸入體重(kg)");
+		float kg = scn.nextFloat();
+		
+		System.out.println(bmi.get_Bmi(cm, kg));
+		
+		
+	}
+
+}
+
+class BMI2{
+	public float get_Bmi(float height,float weight) {
+		float bmi = (float) (weight / Math.pow((height/100),2));
+		return bmi;
+	}
+}

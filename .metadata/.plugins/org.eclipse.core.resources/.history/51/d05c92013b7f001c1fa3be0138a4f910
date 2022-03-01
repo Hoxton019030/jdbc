@@ -1,0 +1,10 @@
+package cycu;
+
+public class 課程專業 {
+	public static void main(String[] args) {
+		int[] myarrray = new int [10];
+			int [9] =250;
+		}
+	}
+
+}

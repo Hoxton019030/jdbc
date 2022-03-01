@@ -1,0 +1,10 @@
+package cycu;
+public class cycu{
+	var b = "back";
+	public static void main(String[] args) {
+
+		
+		System.out.println("aa\n"+"aaaaaa");
+		
+	}
+}

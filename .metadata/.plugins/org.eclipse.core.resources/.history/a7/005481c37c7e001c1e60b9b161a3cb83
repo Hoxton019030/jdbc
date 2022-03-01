@@ -1,0 +1,11 @@
+package cycu;
+
+public class sodadasd {
+	public static void main(String[] args) {
+
+		int[] list = { 1, 2, 3, 4, 5 };
+		int list_length = list.length;
+		System.out.println(list_length);
+	}
+
+}

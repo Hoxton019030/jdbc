@@ -1,0 +1,21 @@
+package extendDemo;
+
+class CScore{
+	private int chia;
+	private int math;
+	
+	CScore(){
+		chia = 0;
+		math = 0;
+	}
+	
+	CScore(int chia , int math)
+	{
+		this.chia = chia;
+		this.math = math;
+	}
+}
+
+public class SuperDemo {
+
+}

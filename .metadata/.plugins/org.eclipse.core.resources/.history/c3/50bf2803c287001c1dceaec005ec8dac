@@ -1,0 +1,9 @@
+package extendDemo;
+
+public class while_another {
+	
+	do {
+		int score = (int)(Math.random()*100);
+	}while();
+
+}

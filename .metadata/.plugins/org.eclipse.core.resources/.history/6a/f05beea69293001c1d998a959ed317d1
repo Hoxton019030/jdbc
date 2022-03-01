@@ -1,0 +1,12 @@
+
+public class HumanPlayer extends player{
+	
+
+
+	@Override
+	protected void guess(int min, int max) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

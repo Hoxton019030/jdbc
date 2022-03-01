@@ -1,0 +1,9 @@
+package cycu;
+public class cycu{
+	public static void main(String[] args) {
+
+		
+		System.out.println("aa\n"+"aaaaaa\r"+"aaaa\r\n"+"aaaaa\n\r");
+		
+	}
+}

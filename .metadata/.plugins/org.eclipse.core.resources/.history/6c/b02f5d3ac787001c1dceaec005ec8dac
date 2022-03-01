@@ -1,0 +1,33 @@
+package extendDemo;
+
+class CScore {
+	private int chia;
+	private int math;
+
+	CScore() {
+		chia = 0;
+		math = 0;
+	}
+
+	CScore(int chia, int math) {
+		this.chia = chia;
+		this.math = math;
+	}
+
+	public void showScore() {
+		System.out.println("國文:" + this.chia + "\t 數學:" + this.math);
+	}
+}
+
+class SonCScore extends CScore {
+	private int eng;
+
+	SonCScore(){
+		super();
+		eng = 0;
+	}
+}
+
+public class SuperDemo {
+
+}

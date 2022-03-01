@@ -1,0 +1,11 @@
+package cycu;
+public class cycu{
+	public static void main(String[] args) {
+
+		float a = 0.01f, b = 0.01f;
+		
+		System.out.println(a);
+		System.out.println(b);
+System.out.println(a+b);
+	}
+}

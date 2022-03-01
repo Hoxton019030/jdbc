@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="C:/_Java/banana.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/javabasic_Teacher/a.jardesc" exportErrors="false" exportWarnings="false" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=javabasic_Teacher/src&lt;module12{M12_Lab01.java[M12_Lab01" manifestLocation="/javabasic_Teacher/a" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=javabasic_Teacher/src&lt;module12{M12_Lab01.java"/>
+    </selectedElements>
+</jardesc>

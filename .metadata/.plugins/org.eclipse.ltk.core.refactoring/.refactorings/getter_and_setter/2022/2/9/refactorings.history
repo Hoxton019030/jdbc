@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;getter_and_setter.announce.a&apos; in &apos;getter_and_setter.announce&apos;&#x0D;&#x0A;- Original project: &apos;getter_and_setter&apos;&#x0D;&#x0A;- Original element: &apos;getter_and_setter.announce.a&apos;&#x0D;&#x0A;- Getter method name: &apos;getA&apos;&#x0D;&#x0A;- Setter method name: &apos;setA&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;a&apos;" flags="589830" getter="getA" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;getter_and_setter{announce.java[announce^a" insertion="-1" setter="setA" stamp="1645497833591" version="1.0" visibility="1"/>
+</session>

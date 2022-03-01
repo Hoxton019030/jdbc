@@ -1,0 +1,10 @@
+package 上課的地方;
+
+public class test {
+	public static void main(String[] args) {
+		Helloworld h1 = new Helloworld();
+		Helloworld h2 = new Helloworld();
+		Helloworld h3 = new Helloworld();
+	}
+
+}

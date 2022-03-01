@@ -1,0 +1,13 @@
+package cycu;
+
+public class cycu {
+	public static void main(String[] args) {
+		int age = 16
+		if(age>18) {
+			System.out.println("可以進入");
+		}
+		else {
+			System.out.println("請你離開");
+		}
+	}
+}

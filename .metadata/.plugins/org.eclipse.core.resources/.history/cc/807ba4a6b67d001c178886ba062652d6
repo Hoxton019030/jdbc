@@ -1,0 +1,14 @@
+package cycu;
+
+public class cycu {
+	public static void main(String[] args) {
+		int age =0b1100;
+		int age2=0b1010;
+		      // 0b1110=14				
+		System.out.println(age|age2);
+			  // 0b0110
+		System.out.println(age^age2);      
+		System.out.println(age&age2);
+		
+	}
+}

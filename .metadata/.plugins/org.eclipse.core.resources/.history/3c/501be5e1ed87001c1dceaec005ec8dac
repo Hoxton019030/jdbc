@@ -1,0 +1,21 @@
+
+class score{
+	static int math = 100;
+	static int chinese = 60;
+	static int english = 10;
+	
+}
+
+class number extends score{
+	static int total = math+chinese+english;
+}
+
+
+public class test1{
+	public static void main(String[] args) {
+		System.out.println(number.total);
+		
+	}
+}
+
+ 

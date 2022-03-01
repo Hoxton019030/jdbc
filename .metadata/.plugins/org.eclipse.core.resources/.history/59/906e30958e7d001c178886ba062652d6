@@ -1,0 +1,9 @@
+package cycu;
+public class cycu{
+	public static void main(String[] args) {
+
+		int[] n = new int[10000];
+		n[123] = 2312123213;
+		System.out.println(n[123]);
+	}
+}

@@ -1,9 +1,0 @@
-
-public abstract AI extends player {
-	
-
-	public void guessNumber();
-
-	@Override
-	public void nameSelf();
-}

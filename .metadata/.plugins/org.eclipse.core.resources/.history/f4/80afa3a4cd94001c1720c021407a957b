@@ -1,8 +1,0 @@
-
-public interface player {
-
-	public abstract void nameSelf() ;
-	public abstract void guessNumber();
-	
-
-}

@@ -1,8 +1,0 @@
-package 進階;
-
-public class ExtendDemo {
-	public static void main(String[] args) {
-		System.out.println("123");
-	}
-
-}

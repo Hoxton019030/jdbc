@@ -1,8 +1,0 @@
-
-public class evenAI extends AI{
-@Override
-public void guessNumber() {
-	// TODO Auto-generated method stub
-	super.guessNumber();
-}
-}

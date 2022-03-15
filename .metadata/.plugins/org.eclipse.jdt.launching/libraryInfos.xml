@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
     <libraryInfo home="C:\Program Files\Java\jdk-17.0.1" version="17.0.1"/>
+<<<<<<< HEAD
     <libraryInfo home="C:\_Java\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657" version="17.0.1"/>
     <libraryInfo home="C:\_Java\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre" version="17.0.1"/>
+=======
+>>>>>>> d5da869af7f149e1a7a390c86363fa9b89f95054
 </libraryInfos>

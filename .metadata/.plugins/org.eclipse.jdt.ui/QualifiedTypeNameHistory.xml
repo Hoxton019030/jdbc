@@ -20,4 +20,11 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+<<<<<<< HEAD
+=======
+    <fullyQualifiedTypeName name="org.jsoup.nodes.Element"/>
+    <fullyQualifiedTypeName name="javax.lang.model.util.Elements"/>
+    <fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
+    <fullyQualifiedTypeName name="org.jsoup.select.Elements"/>
+>>>>>>> d5da869af7f149e1a7a390c86363fa9b89f95054
 </qualifiedTypeNameHistroy>

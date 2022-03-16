@@ -1,3 +1,4 @@
+package jdbc_connectTest;
 import java.sql.*;
 
 public class ConnectToServer {

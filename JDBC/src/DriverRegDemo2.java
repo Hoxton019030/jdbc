@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	
 	Enumeration<Driver> drivers =DriverManager.getDrivers();
 	Iterator<Driver> asIterator = drivers.asIterator();
-	asIterator.forEachRemaining()
+	asIterator.forEachRemaining(null);
 
 }
 }

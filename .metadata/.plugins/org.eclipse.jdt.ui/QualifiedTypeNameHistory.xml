@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="JavaPeogram1"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+    <fullyQualifiedTypeName name="m2_ConnectionDemo.GetConnectionDemo"/>
+    <fullyQualifiedTypeName name="java.sql.SQLClientInfoException"/>
+    <fullyQualifiedTypeName name="m2_ConnectionDemo.我的連線工具"/>
+    <fullyQualifiedTypeName name="m2_ConnectionDemo.MyConnectionutil"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="textGame.Enemy"/>
-    <fullyQualifiedTypeName name="textGame.Enemy.enemyName"/>
-    <fullyQualifiedTypeName name="stack.bufferReader"/>
-    <fullyQualifiedTypeName name="stack.StackByArray"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
-    <fullyQualifiedTypeName name="stack.Stackarray"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="Poker.Poker"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-<<<<<<< HEAD
-=======
-    <fullyQualifiedTypeName name="org.jsoup.nodes.Element"/>
-    <fullyQualifiedTypeName name="javax.lang.model.util.Elements"/>
-    <fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
-    <fullyQualifiedTypeName name="org.jsoup.select.Elements"/>
->>>>>>> d5da869af7f149e1a7a390c86363fa9b89f95054
+    <fullyQualifiedTypeName name="java.beans.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="m2_ConnectionDemo.shipDAO.bean.shipperDAO"/>
+    <fullyQualifiedTypeName name="connectionUtil.MyConnectionUtil"/>
+    <fullyQualifiedTypeName name="connectionUtil.connectionUtilImpl.MyConnectionUtilImpl"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="shippersDAO.ShippersDAOImp"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="shippersDAO.ShippersDAO"/>
+    <fullyQualifiedTypeName name="shippersDAO.bean.Shipper"/>
 </qualifiedTypeNameHistroy>

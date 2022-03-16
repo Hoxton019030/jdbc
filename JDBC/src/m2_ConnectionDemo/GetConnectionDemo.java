@@ -10,19 +10,17 @@ public class GetConnectionDemo {
 		String password = "orz93098";
 
 		try (Connection connection = DriverManager.getConnection(url, userName, password)) {
-Statement createStatement = connection.createStatement();
-String selectProducts = "SELECT * FROM Products"; //目標陳述句
-ResultSet executeQuery = createStatement.executeQuery(selectProducts);
+			Statement createStatement = connection.createStatement();
+			String selectProducts = "SELECT * FROM Products"; // 目標陳述句
 
-while(executeQuery.next()) {
-	for(int i = 1 ; i<=10 ;i++) {
-		System.out.print(executeQuery.getString(i));
-	}
-	System.out.println();
-}
+			ResultSet executeQuery = createStatement.executeQuery(selectProducts);
 
-
-
+			while (executeQuery.next()) {
+				for (int i = 1; i <= 10; i++) {
+					System.out.print(executeQuery.getString(i));
+				}
+				System.out.println();
+			}
 
 			System.out.println("連線成功");
 

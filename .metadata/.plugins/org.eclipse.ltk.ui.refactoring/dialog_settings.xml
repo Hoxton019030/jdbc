@@ -12,7 +12,7 @@
 	<section name="ExtractTempWizard">
 		<item key="declareFinal" value="false"/>
 		<item key="declarevariableTypeVar" value="false"/>
-		<item key="replaceOccurrences" value="true"/>
+		<item key="replaceOccurrences" value="false"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item key="moveWizard.updateQualifiedNames" value="false"/>

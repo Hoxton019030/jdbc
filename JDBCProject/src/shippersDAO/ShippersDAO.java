@@ -1,19 +1,24 @@
-package jdbc_connectTest;
+package shippersDAO;
 
 import java.util.List;
 
-public interface ShipperDAO {
-	
+import shippersDAO.bean.Shipper;
+
+public interface ShippersDAO {
+	//查詢
 	List<Shipper> selectAllShipper();
+
+	Shipper selectShipperById(int shipperId);
 	
-	Shipper selectShipperByID(int shipperID);
-	
+	//新增
 	boolean addShipper(Shipper s);
 
 	//修改
 	boolean updateShipper(Shipper s);
 
 	//刪除
+	boolean deleteShipper(String string);
+
 	boolean deleteShipper(int shipperId);
 	
 

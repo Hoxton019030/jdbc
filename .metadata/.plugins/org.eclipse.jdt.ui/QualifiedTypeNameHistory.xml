@@ -14,14 +14,16 @@
     <fullyQualifiedTypeName name="shippersDAO.ShippersDAOImp"/>
     <fullyQualifiedTypeName name="shippersDAO.ShippersDAO"/>
     <fullyQualifiedTypeName name="shippersDAO.bean.Shipper"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="jdbc_connectTest.ShipperDAO"/>
     <fullyQualifiedTypeName name="jdbc_connectTest.MyConnectionUtil"/>
     <fullyQualifiedTypeName name="jdbc_connectTest.MyconnectionImp"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="jdbc_connectTest.Shipper"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.security.spec.RSAKeyGenParameterSpec"/>
 </qualifiedTypeNameHistroy>

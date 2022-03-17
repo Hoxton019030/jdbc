@@ -1,0 +1,8 @@
+記得！
+將JDBC Driver放置在C:/_Java/lib資料夾底下
+或是重新將JDBCDriver重新配置
+
+將MyConnectionUtilImpl裡面的連線字串、使用者名稱及密碼
+替換成自己的使用者名稱及密碼。
+
+SQL的連線請務必開好。

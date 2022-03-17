@@ -8,9 +8,10 @@ public class Test {
 
 	public static void main(String[] args) {
 		Test t=new Test();
-		t.test1();
+//		t.test1();
 //		t.test2();
 //		t.test3();
+		t.test4();
 //		t.test5();
 		
 	} 
@@ -39,7 +40,7 @@ public class Test {
 	
 	public void test4() {
 		Shipper fakeShipper=new Shipper();
-		fakeShipper.setShipperID(4);
+		fakeShipper.setShipperID(5);
 		fakeShipper.setCompanyName("Tes43");
 		fakeShipper.setPhone("0912345678");
 		
@@ -51,7 +52,7 @@ public class Test {
 	}
 	public void test5() {
 		ShippersDAO sDAO=new ShippersDAOImpl();
-		boolean succeed = sDAO.deleteShipper("Test1");
+		boolean succeed = sDAO.deleteShipper(3);
 		System.out.println(succeed);
 	}
 

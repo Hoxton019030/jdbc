@@ -15,6 +15,8 @@ public interface ShipperDAO {
 
 	//刪除
 	boolean deleteShipper(int shipperId);
+
+	boolean deleteShipper(String ShipperID);
 	
 
 }

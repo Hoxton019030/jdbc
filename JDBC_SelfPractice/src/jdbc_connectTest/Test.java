@@ -40,10 +40,11 @@ public class Test {
 	}
 
 	public void test4() {
+			
 		Shipper fakeShipper = new Shipper();
 		fakeShipper.setCompanyName("PwC");
 		fakeShipper.setPhone("0989796734");
-		fakeShipper.setShipperID(2);
+		fakeShipper.setShipperID(1);
 		System.out.println("已成功修改");
 
 		ShipperDAO sDAO = new ShipperDAOImp();
@@ -54,8 +55,9 @@ public class Test {
 
 	public void test5() {
 		ShipperDAO sDAO = new ShipperDAOImp();
-		boolean succeed = sDAO.deleteShipper("123");
-		System.out.println(succeed);
+		boolean isSucceed = sDAO.deleteShipper(9);
+		System.out.println(isSucceed);
+		
 		
 
 	}

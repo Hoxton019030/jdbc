@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
     <fullyQualifiedTypeName name="m2_ConnectionDemo.GetConnectionDemo"/>
     <fullyQualifiedTypeName name="java.sql.SQLClientInfoException"/>
     <fullyQualifiedTypeName name="m2_ConnectionDemo.我的連線工具"/>
@@ -14,16 +13,27 @@
     <fullyQualifiedTypeName name="shippersDAO.ShippersDAOImp"/>
     <fullyQualifiedTypeName name="shippersDAO.ShippersDAO"/>
     <fullyQualifiedTypeName name="shippersDAO.bean.Shipper"/>
-    <fullyQualifiedTypeName name="jdbc_connectTest.ShipperDAO"/>
+    <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+    <fullyQualifiedTypeName name="java.security.spec.RSAKeyGenParameterSpec"/>
+    <fullyQualifiedTypeName name="java.sql.Types"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="jdbc_connectTest.MyConnectionUtil"/>
     <fullyQualifiedTypeName name="jdbc_connectTest.MyconnectionImp"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="jdbc_connectTest.ShipperDAOImp"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="jdbc_connectTest.ShipperDAO"/>
     <fullyQualifiedTypeName name="jdbc_connectTest.Shipper"/>
+    <fullyQualifiedTypeName name="jdbc_connectTest.Test"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+    <fullyQualifiedTypeName name="javax.naming.PartialResultException"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.security.spec.RSAKeyGenParameterSpec"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSetMetaData"/>
 </qualifiedTypeNameHistroy>

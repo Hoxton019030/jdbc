@@ -124,23 +124,29 @@ public class ShipperDAOImp implements ShipperDAO {
 
 	@Override
 	public boolean deleteShipper(int ShipperID) {
-		String sql ="DELETE FROM [dbo].[Suppliers]"
-				+ "      WHERE ShipperID=? ";
-		MyConnectionUtil myUtil = new MyconnectionImp();
+		String sql = "DELETE FROM [dbo].[Shippers]"
+				+ "      where ShipperID=?";
 		boolean succeed = false;
+		MyConnectionUtil myUtil = new MyconnectionImp();
 		try {
 			Connection conn = myUtil.getConnection();
-		  PreparedStatement pstmt=	conn.prepareStatement(sql);
-		  pstmt.setInt(1,ShipperID);
-		  int count = pstmt.executeUpdate();
-		  myUtil.free(conn, pstmt, null);
-		  succeed = true;
-		  return succeed;
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, ShipperID);
+			int count = pstmt.executeUpdate();
+			myUtil.free(conn, pstmt, null);
+			if (count >= 1)
+				succeed = true;
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return succeed;
+	}
+
+	@Override
+	public boolean deleteShipper(String shipperId) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
